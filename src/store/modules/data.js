@@ -46,8 +46,6 @@ export default {
 
             state.dataByPages = dataByPages
             state.data = data
-
-            console.log(state)
         },
 
         selectList(state, selected) {
@@ -103,8 +101,6 @@ export default {
 
                 state.dataByPages.postsByPages = postsByPages
             }
-
-            console.log(state.dataByPages.usersByPages)
         },
 
         setPage(state, ev) {
